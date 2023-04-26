@@ -1,0 +1,36 @@
+#root {
+  width: 85%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.table-colored tr:nth-child(even) {
+  background-color: #333;
+}
+
+.table-colored tr:nth-child(odd) {
+  background-color: #555;
+}
+
+table {
+  border: 1px solid #555;
+  background-color: #444;
+}
+
+table thead tr th {
+  padding: 0.5rem;
+}
+
+td img {
+  vertical-align: middle;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
